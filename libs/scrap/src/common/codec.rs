@@ -21,7 +21,7 @@ use crate::{
 use hbb_common::{
     anyhow::anyhow,
     bail,
-    config::{option2bool, Config, PeerConfig},
+    config::{Config, PeerConfig},
     lazy_static, log,
     message_proto::{
         supported_decoding::PreferCodec, video_frame, Chroma, CodecAbility, EncodedVideoFrames,
